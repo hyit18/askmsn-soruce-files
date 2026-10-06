@@ -1,0 +1,51 @@
+Item,Reported,Recomputed,Difference,Status
+Table 8 R108-10 runtime reduction (%),14.21,41.019,26.809,CHECK
+Table 8 R108-10 delivery-time reduction (%),3.35,2.351,-0.999,CHECK
+Table 8 C108-10 runtime reduction (%),3.87,3.868,-0.002,consistent
+Table 8 C108-10 delivery-time reduction (%),6.31,6.36,0.05,consistent
+Table 8 RC108-10 runtime reduction (%),13.33,13.333,0.003,consistent
+Table 8 RC108-10 delivery-time reduction (%),9.53,9.268,-0.262,CHECK
+Table 8 R108-20 runtime reduction (%),17.46,41.754,24.294,CHECK
+Table 8 R108-20 delivery-time reduction (%),2.51,1.799,-0.711,CHECK
+Table 8 C108-20 runtime reduction (%),5.82,-25.626,-31.446,CHECK
+Table 8 C108-20 delivery-time reduction (%),10.35,10.285,-0.065,CHECK
+Table 8 RC108-20 runtime reduction (%),7.56,-39.672,-47.232,CHECK
+Table 8 RC108-20 delivery-time reduction (%),7.94,7.93,-0.01,consistent
+Table 8 R108-50 runtime reduction (%),19.89,19.466,-0.424,CHECK
+Table 8 R108-50 delivery-time reduction (%),3.37,3.35,-0.02,consistent
+Table 8 C108-50 runtime reduction (%),22.74,22.883,0.143,CHECK
+Table 8 C108-50 delivery-time reduction (%),5.78,5.775,-0.005,consistent
+Table 8 RC108-50 runtime reduction (%),19.59,18.876,-0.714,CHECK
+Table 8 RC108-50 delivery-time reduction (%),2.48,2.482,0.002,consistent
+Table 8 average GA runtime (s),8.83,9.067,0.237,CHECK
+Table 8 average IGA runtime (s),6.99,7.622,0.632,CHECK
+Table 8 average GA delivery time (min),136.55,138.422,1.872,CHECK
+Table 8 average IGA delivery time (min),126.77,131.61,4.84,CHECK
+Avg runtime reduction 17.55% vs mean of printed column,17.55,13.83,-3.72,CHECK
+Avg runtime reduction 17.55% vs mean of recomputed rows,17.55,10.656,-6.894,CHECK
+Avg runtime reduction 17.55% vs reduction of averages,17.55,15.931,-1.619,CHECK
+Avg delivery reduction 6.49% vs mean of printed column,6.49,5.736,-0.754,CHECK
+Avg delivery reduction 6.49% vs mean of recomputed rows,6.49,5.511,-0.979,CHECK
+Avg delivery reduction 6.49% vs reduction of averages,6.49,4.921,-1.569,CHECK
+Sec 7.2 R108-10 search-time reduction (%),68.9,68.88,-0.02,consistent
+Sec 7.2 R108-10 delivery improvement (%),4.17,4.172,0.002,consistent
+Sec 7.2 GA runtime vs Table 8 R108-10 (s),17.77,7.46,-10.31,CHECK
+Sec 7.2 IGA delivery vs Table 8 R108-10 (min),74.65,74.76,0.11,CHECK
+Round-trip vs truck-only time (%),27.98,27.983,0.003,consistent
+Traversal vs truck-only time (%),36.72,36.719,-0.001,consistent
+Traversal vs round-trip time (%),12.12,12.131,0.011,consistent
+Round-trip vs truck-only cost (%),7.36,7.377,0.017,consistent
+Traversal vs truck-only cost (%),9.78,9.785,0.005,consistent
+Traversal vs round-trip cost (%),2.6,2.599,-0.001,consistent
+Table 11 Truck-only total time = max truck time (min),99.24,99.24,0,consistent
+Table 11 Round-trip collaborative total time = max truck time (min),71.47,71.47,0,consistent
+Table 11 Traversal collaborative total time = max truck time (min),62.8,62.8,0,consistent
+Selected traversal cost: Table 11 vs Table 10 Solution 3 (USD),64.08,457.71,393.63,CHECK
+Table 10 solution with lowest equal-weight score,3,2,-1,CHECK
+Drone flight speed at base value: round-trip time vs Table 11 (min),71.47,76.7,5.23,CHECK
+Drone flight speed at base value: traversal time vs Table 11 (min),62.8,61.8,-1,CHECK
+Maximum drone flight time at base value: round-trip time vs Table 11 (min),71.47,71.48,0.01,consistent
+Maximum drone flight time at base value: traversal time vs Table 11 (min),62.8,62.9,0.1,CHECK
+Maximum drone payload at base value: round-trip time vs Table 11 (min),71.47,78.53,7.06,CHECK
+Maximum drone payload at base value: traversal time vs Table 11 (min),62.8,76.42,13.62,CHECK
+Sec 9.3 payload increase 9->16 points (%),43.75,77.778,34.028,CHECK

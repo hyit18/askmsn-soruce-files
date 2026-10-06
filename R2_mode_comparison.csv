@@ -1,0 +1,4 @@
+Mode,Truck1_min,Truck2_min,Truck3_min,Total_time_min,Total_cost_USD,Drone_points
+Truck-only,99.24,98.84,83.2,99.24,71.03,0
+Round-trip collaborative,69.95,69.09,71.47,71.47,65.79,10
+Traversal collaborative,56.66,23.69,62.8,62.8,64.08,14
